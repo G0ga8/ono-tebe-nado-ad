@@ -49,7 +49,6 @@
   max-width: 240px;
   font-size: 18px;
   line-height: 24.3px;
-  font-style: normal;
 }
 
 .address__link {
@@ -77,6 +76,7 @@
   font-weight: 700;
   line-height: 1.15;
   text-transform: uppercase;
+  letter-spacing: 30px;
 }
 
 .aligned-text {
@@ -284,10 +284,6 @@
 .footer__menu-list {
   list-style: none;
   text-align: center;
-}
-
-.footer__menu-list a {
-  white-space: nowrap;
 }
 
 .footer__menu-link {
