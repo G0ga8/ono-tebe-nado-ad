@@ -129,6 +129,7 @@
   padding: 12px 32px 11px 31px;
   border: 1px solid #fff;
   color: #fff;
+  cursor: pointer;
   font-size: 22px;
   font-weight: 500;
   line-height: 1;
@@ -215,6 +216,7 @@
 .lots__look-more-link {
   display: inline-block;
   margin: 30px 0 0 40px;
+  cursor: pointer;
   font-size: 20px;
   line-height: 23px;
   text-underline-offset: 4px;
@@ -233,7 +235,9 @@
 }
 
 .about__column_text {
-  padding-top: 133px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about__logo {
